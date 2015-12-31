@@ -1,0 +1,23 @@
+# -*- mode: snippet -*-
+# name: model
+# key: model/
+# --
+
+class $0(Model):
+      """
+      """
+      _pk = 'id'
+      _db = ''
+      _table = ''
+      _fields = set(['id',
+              'create_user', 'create_time', 'update_user', 'update_time'])
+      _scheme = (
+      "\`id\` bigint NOT NULL AUTO_INCREMENT",
+
+      "\`create_user\` int NOT NULL COMMENT '创建人id'",
+      "\`create_time\` datetime NOT NULL COMMENT '创建时间'",
+      "\`update_user\` int NOT NULL COMMENT '谁更新的'",        
+      "\`update_time\` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP",
+      "PRIMARY KEY (\`id\`)",
+      
+      )

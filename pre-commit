@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+unalias -a
+args_limit=8
+args_pylint=$(which pylint)
+args_pylintrc=.pylint
+git-pylint-commit-hook --limit $args_limit --pylint $args_pylint --pylintrc $args_pylintrc

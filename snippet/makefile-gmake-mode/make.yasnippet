@@ -1,0 +1,18 @@
+# name: make
+# key: make/
+# --
+sources = $(wildcard *.c)
+objects = $(subst .c,.o,$(sources))
+target = fobar
+
+LIBS = -levent -lpthread
+CPPFLAGS = -g3
+LDFLAGS = 
+
+all: $(target)
+
+$(target): $(objects)
+	$(CC) -o $(target) $(objects) $(LIBS) ${LDFLAGS}
+
+clean:
+	rm -f *.o $(target)

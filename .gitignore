@@ -1,0 +1,11 @@
+*.pyc
+.settings/org.eclipse.core.resources.prefs
+.pydevproject
+.swp
+.DS_Store
+.project
+.idea/
+*~
+*#
+.idea/*
+*.swp

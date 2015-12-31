@@ -1,0 +1,16 @@
+# -*- mode: snippet -*-
+# name: service_api
+# key: service_api/
+# --
+    def $0(self):
+        """
+        """
+
+        args = dict()
+
+        response = utils.request_internal_server_api(, args)
+
+        if response['code'] != settings.E_SUCC:
+            raise ServiceError(response['code'], response.get('msg', ''))
+        
+        return response['body']

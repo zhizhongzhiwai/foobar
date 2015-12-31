@@ -1,0 +1,14 @@
+# -*- mode: snippet -*-
+# name: error_test
+# key: error_test/
+# --
+
+
+        if code != settings.E_SUCC:
+            message = settings.ERR_DESC[code]
+            logging.error("$0")
+            self.send_json(code, None)
+            return
+        else:
+            logging.info("")
+            pass
