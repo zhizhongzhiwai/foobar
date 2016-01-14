@@ -5,7 +5,7 @@ export LESS=' -R '
 export EDITOR='emacsclient -t -c'
 export FIGNORE='.pyc:~:.o:~:#'
 
-
+alias gpg='gpg --armor'
 
 alias ls='ls -F --color=never  --ignore-backups --ignore="*.pyo" --ignore="*.pyc" --ignore="*#"'
 export ALTERNATE_EDITOR='/usr/bin/emacs23 --daemon'
