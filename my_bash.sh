@@ -8,7 +8,7 @@ export FIGNORE='.pyc:~:.o:~:#'
 alias gpg='gpg --armor'
 
 alias ls='ls -F --color=never  --ignore-backups --ignore="*.pyo" --ignore="*.pyc" --ignore="*#"'
-export ALTERNATE_EDITOR='/usr/bin/emacs23 --daemon'
+export ALTERNATE_EDITOR='/usr/bin/emacs --daemon'
 alias zile='emacsclient -t -c -a ""'
 alias less='less -I -N'
 alias grep='grep -r -n --binary-files=without-match --exclude="*.pyc" --exclude="*~" --exclude="*#" -i --exclude-dir=".*"'
@@ -26,5 +26,5 @@ alias k4='kill -9 %4'
 alias k5='kill -9 %5'
 
 # pylint
-alias pylint='pylint --rcfile=/home/angel/foo/my_config/pylint'
+alias pylint='pylint --rcfile=/home/angel/foo/mybash/pylint'
 alias autopep8='autopep8 --ignore E501'
