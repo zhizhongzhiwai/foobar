@@ -175,14 +175,14 @@ occurence of CHAR."
 (eval-after-load "vc-hooks"
   '(define-key vc-prefix-map "=" 'ediff-revision))
 
-;; rename buffer name
-(defun rename-buffer-name-0 ()
-  (let* ((file-name-element (reverse (split-string buffer-file-name "/")))
-         (file-name (nth 0 file-name-element))
-         (file-parent-0 (nth 1 file-name-element))
-         (file-parent-1 (nth 2 file-name-element)))
+;; ;; rename buffer name
+;; (defun rename-buffer-name-0 ()
+;;   (let* ((file-name-element (reverse (split-string buffer-file-name "/")))
+;;          (file-name (nth 0 file-name-element))
+;;          (file-parent-0 (nth 1 file-name-element))
+;;          (file-parent-1 (nth 2 file-name-element)))
 
-    (rename-buffer (format "%s<%s/%s>" file-name file-parent-1 file-parent-0))
-    ))
+;;     (rename-buffer (format "%s<%s/%s>" file-name file-parent-1 file-parent-0))
+;;     ))
 
-(add-hook 'find-file-hook 'rename-buffer-name-0)
+;; (add-hook 'find-file-hook 'rename-buffer-name-0)
