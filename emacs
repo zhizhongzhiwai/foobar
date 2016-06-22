@@ -32,6 +32,7 @@
  '(tool-bar-mode nil)
  '(ediff-split-window-function (quote split-window-horizontally))
  '(scroll-conservatively (/ (window-height) 4))
+ '(python-indent-offset 4)
  )
 
 
@@ -186,3 +187,7 @@ occurence of CHAR."
 ;;     ))
 
 ;; (add-hook 'find-file-hook 'rename-buffer-name-0)
+
+(put 'set-goal-column 'disabled nil)
+(global-unset-key "\C-v")
+(global-unset-key "\M-v")
