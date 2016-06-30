@@ -8,7 +8,7 @@ export FIGNORE='.pyc:~:.o:~:#'
 
 alias gpg='gpg --armor'
 
-alias ls='ls -F --color=never  --ignore-backups --ignore="*.pyo" --ignore="*.pyc" --ignore="*#"'
+alias ls='ls --time-style=iso -F --color=never  --ignore-backups --ignore="*.pyo" --ignore="*.pyc" --ignore="*#"'
 export ALTERNATE_EDITOR='/usr/bin/emacs --daemon'
 alias zile='emacsclient -t -c -a ""'
 alias less='less -I -N'
