@@ -129,13 +129,13 @@ occurence of CHAR."
 
 ;; yasnippet
 ;;(add-to-list 'load-path "/home/angel/.emacs.d/plugins/yasnippet-0.6.1c")
-(require 'yasnippet)
-(yas/initialize)
+;;(require 'yasnippet)
+;;(yas/initialize)
 
-(setq yas/root-directory "/home/angel/foo/my_config/snippet")
+;;(setq yas/root-directory "/home/angel/foo/my_config/snippet")
 ;;(yas/load-directory "/home/angel/.emacs_libs/snippet")
 ;;(setq yas/root-directory (getenv "yas_root_directory"))
-(yas/load-directory yas/root-directory)
+;;(yas/load-directory yas/root-directory)
 
 
 
