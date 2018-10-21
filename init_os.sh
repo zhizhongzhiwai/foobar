@@ -18,8 +18,11 @@ apt -y install build-essential cmake git libgit2-dev clang libncurses5-dev libnc
 apt -y install python-dev
 pip install -U pip
 
-apt -y install supervisor
+apt -y install supervisor dnscrypt-proxy
 
 
 apt -y install lsof net-tools screen nload iproute2 
+
+#
+localectl set-locale LANG=en_US.UTF-8
 
