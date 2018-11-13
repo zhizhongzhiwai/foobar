@@ -22,7 +22,7 @@ pip install -U pip
 apt -y install supervisor dnscrypt-proxy fail2ban tcpdump
 
 
-apt -y install lsof net-tools screen nload iproute2 
+apt -y install lsof net-tools screen nload iproute2 emacs24-nox htop
 
 #
 localectl set-locale LANG=en_US.UTF-8
