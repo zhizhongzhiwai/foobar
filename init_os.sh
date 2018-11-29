@@ -19,7 +19,7 @@ apt -y install build-essential cmake git libgit2-dev clang libncurses5-dev libnc
 apt -y install python-dev
 pip install -U pip
 
-apt -y install supervisor dnscrypt-proxy fail2ban tcpdump
+apt -y install supervisor dnscrypt-proxy fail2ban tcpdump libncursesw5-dev
 
 
 apt -y install lsof net-tools screen nload iproute2 emacs24-nox htop
