@@ -20,9 +20,10 @@ apt -y install build-essential cmake git libgit2-dev clang libncurses5-dev libnc
 #
 apt -y install python-dev
 curl -o - https://bootstrap.pypa.io/get-pip.py |python
-pip install -U pip
+pip install -U pip 
+pip install toolz 
 
-apt -y install supervisor fail2ban tcpdump libncursesw5-dev gpg dirmngr apt-transport-https
+apt -y install supervisor fail2ban tcpdump libncursesw5-dev gpg dirmngr apt-transport-https source-highlight
 
 
 apt -y install lsof net-tools screen nload iproute2 emacs24-nox htop
