@@ -1,0 +1,1 @@
+/etc/dhcp/dhclient.conf 去掉domain-name-servers, 添加prepend-name-server 127.0.0.1
