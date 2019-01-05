@@ -13,7 +13,8 @@ alias ls='ls --time-style=iso -F --color=never  --ignore-backups --ignore="*.pyo
 alias less='less -I -N'
 alias lsof='lsof -n -P'
 alias ipython='ipython --no-banner --no-confirm-exit --deep-reload --colors LightBG --pdb'
-alias screen='screen -e^Oo -d -R'
+alias screen='screen -e^Oo -d -R -l'
+alias su='su --login'
 alias emacs='emacs -nw'
 
 # python
