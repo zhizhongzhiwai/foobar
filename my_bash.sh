@@ -17,6 +17,7 @@ alias screen='screen -e^Oo -d -R'
 alias emacs='emacs -nw'
 
 # python
+export HISTCONTROL=ignorespace
 
 alias k1='kill -9 %1'
 alias k2='kill -9 %2'
