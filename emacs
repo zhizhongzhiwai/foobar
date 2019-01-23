@@ -25,6 +25,7 @@
  '(initial-scratch-message nil)
  '(make-backup-files t)
  '(menu-bar-mode nil)
+'(electric-indent-mode nil)
  '(message-log-max 200)
  '(scroll-bar-mode nil)
  '(semantic-complete-inline-analyzer-displayor-class (quote semantic-displayor-traditional))
@@ -153,9 +154,9 @@ occurence of CHAR."
 
 
 ;; python
-(add-hook 'python-mode-hook
-          #'(lambda ()
-              (yas/minor-mode 1)))
+;; (add-hook 'python-mode-hook
+;;           #'(lambda ()
+;;               (yas/minor-mode 1)))
 
 
 ;;
