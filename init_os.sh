@@ -26,11 +26,11 @@ pip install toolz
 apt -y install supervisor fail2ban tcpdump libncursesw5-dev gpg dirmngr apt-transport-https source-highlight
 
 
-apt -y install lsof net-tools screen nload iproute2 emacs-nox htop less
+apt -y install lsof net-tools screen nload iproute2 emacs-nox htop less zile
 
 #
 localectl set-locale LANG=en_US.UTF-8
-
+apt -y install sysstat
 
 git config --system alias.co checkout
 git config --system alias.br branch
