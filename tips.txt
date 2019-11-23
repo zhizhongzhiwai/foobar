@@ -3,3 +3,10 @@
 
 AddKeysToAgent yes
 IdentityAgent /tmp/ssh-agent.angel
+
+
+=====
+fdisk a boot flag
+
+reboot
+resize2fs /dev/sda1
