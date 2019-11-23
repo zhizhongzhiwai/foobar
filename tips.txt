@@ -10,3 +10,4 @@ fdisk a boot flag
 
 reboot
 resize2fs /dev/sda1
+lsblk -f 
