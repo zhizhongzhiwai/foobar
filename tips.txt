@@ -11,3 +11,11 @@ fdisk a boot flag
 reboot
 resize2fs /dev/sda1
 lsblk -f 
+
+===== systemctl
+/etc/systemd/system/
+.config/systemd/user
+
+systemctl --user reenable 
+systemctl show|cat|status|stop
+journalctl --user -f -u foo.service
