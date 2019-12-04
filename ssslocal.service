@@ -1,0 +1,12 @@
+[Unit]
+Description=ssslocal service
+
+[Service]
+Type=simple
+ExecStart=/usr/local/bin/sslocal 
+Restart=always
+RestartSec=4s
+User=nobody
+
+[Install]
+WantedBy=default.target

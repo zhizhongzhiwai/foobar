@@ -1,0 +1,11 @@
+[Unit]
+Description=ssh-agent
+
+[Service]
+Type=simple
+ExecStart=/usr/bin/ssh-agent -D -a /tmp/ssh-agent.angel
+Restart=always
+RestartSec=4s
+
+[Install]
+WantedBy=default.target
