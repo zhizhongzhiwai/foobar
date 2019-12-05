@@ -1,9 +1,11 @@
 [Unit]
 Description=ssslocal service
+Requires=network-online.target
+After=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/sslocal 
+ExecStart=/usr/local/bin/sslocal -s 49.235.115.202  -p 49999 -m chacha20 -k tianshangrenjian110 -l 1080
 Restart=always
 RestartSec=4s
 User=nobody
