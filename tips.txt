@@ -22,6 +22,8 @@ systemctl --user 加载.service 文件里不能添加User/Group指令
 systemctl --user reenable 
 systemctl show|cat|status|stop|reload|daemon-reload
 journalctl --user -f -u foo.service
+journalctl --user-unit foo.service
+
 journalctl -p 1
 
 ExecStop=/usr/bin/kill -SIGINT $MAINPID
