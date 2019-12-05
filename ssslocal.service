@@ -5,7 +5,7 @@ After=network-online.target
 
 [Service]
 Type=simple
-ExecStart=/usr/local/bin/sslocal -s 49.235.115.202  -p 49999 -m chacha20 -k tianshangrenjian110 -l 1080
+ExecStart=/usr/local/bin/sslocal
 Restart=always
 RestartSec=4s
 User=nobody
