@@ -14,7 +14,7 @@ lsblk -f
 
 ===== systemctl
 
-systemctl --user 
+systemctl --user 加载.service 文件里不能添加User/Group指令
 
 /etc/systemd/system/
 .config/systemd/user
