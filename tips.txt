@@ -27,3 +27,14 @@ journalctl --user-unit foo.service
 journalctl -p 1
 
 ExecStop=/usr/bin/kill -SIGINT $MAINPID
+
+======= apparmor
+aa-status
+aa-enabled
+aa-genprof
+aa-logprof -m
+apparmor_parser -r replace profile
+apparmor_parser -R remove profile
+systemctl reload apparmor
+
+/** rwk, read, write, k=lock
