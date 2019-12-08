@@ -1,0 +1,14 @@
+# Last Modified: Sun Dec  8 07:33:04 2019
+#include <tunables/global>
+
+/home/notfast/decred/dcrd {
+  #include <abstractions/base>
+  #include <abstractions/nameservice>
+
+  @{HOME}/decred/dcrd mr,
+  @{PROC}/sys/net/core/* r,
+  owner /data/dcrd-data/** rwk,
+  owner @{HOME}/.dcrd/dcrd.conf r,
+  owner @{HOME}/.dcrd/logs/** rwk,
+  owner @{HOME}/.dcrd/data/** rwk,
+}
