@@ -3,7 +3,7 @@ export LESSOPEN="| /usr/share/source-highlight/src-hilite-lesspipe.sh %s"
 export LESS=' -R '
 
 #export EDITOR='emacsclient -t -c'
-export EDITOR='zile'
+export EDITOR='emacs -nw'
 export FIGNORE='.pyc:~:.o:~:#'
 
 alias grep='grep --ignore-case --binary-files=without-match --exclude="*.pyc" --exclude="*.pyo" --exclude="*#" --exclude="*~" --exclude-dir=".*"'
