@@ -3,7 +3,7 @@
 
 AddKeysToAgent yes
 IdentityAgent /tmp/ssh-agent.angel
-
+ssh -Q [help|key|mac|]
 
 =====
 fdisk a boot flag
