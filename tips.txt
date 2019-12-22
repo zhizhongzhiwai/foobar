@@ -38,3 +38,16 @@ apparmor_parser -R remove profile
 systemctl reload apparmor
 
 /** rwk, read, write, k=lock
+
+
+===== ansible
+ansible host-patter -i -m -a "name=x state=stopped"
+ansible-doc systemd
+
+[group_name:vars]
+group
+[group_children]
+children
+
+
+
