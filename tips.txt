@@ -55,3 +55,7 @@ children
 gpg --edit-key
 gpg --recv-key fpr
 echo reloadagent | gpg-connect-agent
+
+
+=======
+oathtool -b --totp
