@@ -3,6 +3,8 @@
 
 AddKeysToAgent yes
 IdentityAgent /tmp/ssh-agent.angel
+@reboot ssh-agent -a /tmp/ssh-agent.angel
+
 ssh -Q [help|key|mac|]
 
 =====
