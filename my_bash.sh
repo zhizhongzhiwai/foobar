@@ -7,7 +7,9 @@ alias ipython='ipython --no-banner --no-confirm-exit'
 alias nload='nload -t 1500'
 alias screen='screen -l -e^Oo'
 alias su='su --login'
-alias sudo='sudo --login'
+
+# double alias
+alias sudo='sudo --login '
 
 alias emacs='emacs -nw'
 
