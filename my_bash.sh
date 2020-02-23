@@ -12,6 +12,7 @@ alias su='su --login'
 alias sudo='sudo --login '
 
 alias emacs='emacs -nw'
+alias curl='curl --location'
 
 # python
 export HISTCONTROL=ignorespace
