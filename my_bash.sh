@@ -14,6 +14,10 @@ alias sudo='sudo --login '
 alias emacs='emacs -nw'
 alias curl='curl --location'
 
+alias less='less  --IGNORE-CASE'
+alias grep='grep --ignore-case -I'
+
+
 # python
 export HISTCONTROL=ignorespace
 
