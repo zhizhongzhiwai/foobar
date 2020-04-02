@@ -23,7 +23,7 @@ apt -y install apparmor-utils apparmor-easyprof  apparmor
 apt -y install python-dev
 curl -o - https://bootstrap.pypa.io/get-pip.py |python
 pip install -U pip 
-pip install toolz 
+pip install toolz pysocks
 
 apt -y install fail2ban tcpdump libncursesw5-dev dirmngr apt-transport-https source-highlight
 apt -y install net-tools
