@@ -1,4 +1,3 @@
-
 export EDITOR='emacs -nw'
 alias ls='ls -F'
 
@@ -16,7 +15,7 @@ alias curl='curl --location --proxy socks5://localhost:1080'
 
 alias less='less  --IGNORE-CASE'
 alias grep='grep --ignore-case -I'
-alias pip=pip --proxy socks5://localhost:1080'
+alias pip='pip --proxy socks5://localhost:1080'
 
 alias firejail='firejail --apparmor'
 
