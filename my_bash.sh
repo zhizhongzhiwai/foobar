@@ -18,6 +18,8 @@ alias less='less  --IGNORE-CASE'
 alias grep='grep --ignore-case -I'
 alias pip=pip --proxy socks5://localhost:1080'
 
+alias firejail='firejail --apparmor'
+
 # python
 export HISTCONTROL=ignorespace
 
