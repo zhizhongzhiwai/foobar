@@ -28,4 +28,6 @@ alias k3='kill -9 %3'
 alias k4='kill -9 %4'
 alias k5='kill -9 %5'
 
-# pylint
+# gpg
+GPG_TTY=$(tty)
+export GPG_TTY
