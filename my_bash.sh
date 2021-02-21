@@ -11,11 +11,11 @@ alias su='su --login'
 #alias sudo='sudo --login '
 
 alias emacs='emacs -nw'
-alias curl='curl --remote-name --location --proxy socks5h://localhost:1080'
+alias curl='curl --remote-name --location --proxy socks5h://127.0.0.1:1080'
 
 alias less='less  --IGNORE-CASE'
 alias grep='grep --ignore-case -I'
-alias pip='pip --proxy socks5://localhost:1080'
+alias pip='pip --proxy socks5h://127.0.0.1:1080'
 
 alias firejail='firejail --apparmor'
 
