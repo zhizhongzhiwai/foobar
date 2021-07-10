@@ -1,0 +1,19 @@
+# list all device
+parted -l 
+
+
+# make label
+parted /dev/sdX mklabel gpt
+
+# parted
+parted /dev/sdX mkpart primary ext4 0s 4G
+
+# name
+parted /dev/sdX name 1 name
+
+# print
+parted /dev/sdX print
+
+# 
+mkfs.ext4 /dev/sdX{number}
+
